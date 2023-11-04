@@ -1,0 +1,25 @@
+/* ... Existing styles ... */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product {
+  width: calc(35% - 1rem); /* Adjust the width as needed */
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.product-image {
+  max-width: 50%;
+  height: 200px;
+}
+

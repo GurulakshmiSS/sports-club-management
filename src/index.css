@@ -1,0 +1,9 @@
+/* index.css */
+
+body {
+   /* background-image: url('https://wallpapers.com/images/hd/sports-balls-reflection-black-syklwrr7mtqr02bp.jpg'); /* Adjust the path as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fixed background */
+  }
+  

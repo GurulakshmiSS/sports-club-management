@@ -1,0 +1,75 @@
+/* SportsCatalog.css */
+
+/* Style for the Sports Catalog container */
+.sports-catalog {
+    padding: 20px;
+    font-family: monospace;
+    text-align: center;
+   
+    font-size: 30px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Style for the product list container */
+  /* SportsCatalog.css */
+
+/* Style for the product list container */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Horizontally center the products */
+  align-items: center; /* Vertically center the products */
+}
+
+/* Rest of your CSS styles */
+
+  /* Style for each product card */
+  .product-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .product-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3;
+  }
+  

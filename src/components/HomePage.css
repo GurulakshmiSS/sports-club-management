@@ -1,0 +1,141 @@
+/* HomePage.css */
+
+/* Style for the banner section */
+
+.banner {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+  }
+  
+  /* Style for the images within the carousel */
+  .carousel img {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+  
+  
+  /* Style for the content section */
+  .content {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+   
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Style for the welcome message */
+  h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for club information */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+  }
+  
+  /* Style for upcoming events section */
+  .upcoming-events h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .upcoming-events ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .upcoming-events li {
+    font-size: 16px;
+    color:black;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for membership benefits section */
+  .membership-benefits h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .membership-benefits ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .membership-benefits li {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .membership-benefits a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .membership-benefits a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for featured sports section */
+  /* HomePage.css */
+
+/* Style for the featured sports section */
+.featured-sports {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Center-align the content within the featured sports section */
+  }
+  
+  /* Center the sports list using flexbox */
+  .sports-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Horizontally center the items */
+    align-items: center; /* Vertically center the items */
+    font-family: monospace;
+  }
+  
+  
+  .sport-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .sport-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .sport-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .sport-card h3 {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  .sport-card p {
+    font-size: 16px;
+    color: black;
+  }
+  

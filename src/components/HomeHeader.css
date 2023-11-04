@@ -1,0 +1,21 @@
+ /* styles.css */
+.background-image {
+    background-image: url('images1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: fixes the background position */
+  }
+  .row{
+    padding-top: 20px;
+  }
+  .main_box{
+    width:40%;
+    margin:auto;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    color: #000;  
+    height: 20%;
+  }
+  
+  
