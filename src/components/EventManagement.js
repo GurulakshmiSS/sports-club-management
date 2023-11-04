@@ -128,7 +128,7 @@ const EventManagement = () => {
             <p>Location: {event.location}</p>
             <p>Description: {event.description}</p>
             <button>Edit</button>
-            <button onClick={()=>Update(event.id)}>Delete</button>
+            <button >Delete</button>
           </div>
         ))}
       </div> 
@@ -136,5 +136,5 @@ const EventManagement = () => {
     </div>
   );
 };
-//
+//onClick={()=>Update(event.id)}
 export default EventManagement;
